@@ -1,0 +1,35 @@
+{
+  "base_path": "./TradeData",
+  "regions": {
+    "Europe": "Europe",
+    "Asia": "Asia",
+    "Africa": "Africa",
+    "Americas": "America",
+    "Baltic": "Baltic",
+    "Unspecified": "Unspecified"
+  },
+  "trade_types": [
+    "Export",
+    "Import"
+  ],
+  "value_types": {
+    "USD": "US $ Million",
+    "Quantity": "Quantity"
+  },
+  "date_range": {
+    "start_year": 2021,
+    "start_month": 1,
+    "end_year": 2025,
+    "end_month": 12
+  },
+  "selenium": {
+    "headless_mode": false,
+    "max_retries": 3,
+    "page_load_timeout": 10,
+    "element_wait_timeout": 10
+  },
+  "urls": {
+    "export": "https://tradestat.commerce.gov.in/meidb/region_wise_all_commodities_export",
+    "import": "https://tradestat.commerce.gov.in/meidb/region_wise_all_commodities_import"
+  }
+}
